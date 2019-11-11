@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.principal{
+	width:800px;
+	margin: 0 auto;
+}
+h1{
+    padding:30px 10px 30px 10px;
+	margin-top:20px;
+	margin-bottom:80px;
+	text-align: center;
+	border-radius:20px;
+	background-color:#5D6063;
+	color:white;
+}
+h2{
+    margin:20px;
+    MARGIN-top:50px;
+    margin-bottom:40px;
+}
+.contenedor{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.cajas{
+  padding:30px 10px 30px 10px;
+
+
+  text-decoration: none;  
+  color: white;
+  background-color:black;  
+  font-weight: bold;
+  text-align: justify;
+  width: 150px;
+height:250px;
+  margin-left: 10px;
+  text-align: center;
+    border-radius:10px;
+}
+.cajas:hover{
+    background-color:darkgray;
+}
+.button:link,
+.button:visited{
+  display: inline-block; 
+  text-decoration: none;  
+  color: white;
+  background-color:MEDIUMTURQUOISE ;  
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  width: 200px;
+  margin: 20px auto;
+  margin-top:0px;
+}
+.button:link,
+.button:visited:hover{
+background-color:steelblue ;
+    
+}
+.python{
+    float:left;
+    width:350px;
+    height:100px;
+    background-color:lightblue;
+text-align: center;
+}
+.java{
+    float:right;
+    width:450px;
+    height:300px;
+    background-color:#FF637D;
+    text-align: center;
+}
+.c{
+    text-align: center;
+    float:left;
+    width:175px;
+    height:200px;
+    background-color:#F09A9D;
+}
+.kotlin{
+    text-align: center;
+    float:left;
+    width:800px;
+    height:90px;
+    background-color:#F5CF8E;
+
+}
+.db{
+    text-align: center;
+    float:right;
+    width:250px;
+    height:300px;
+    background-color:chocolate;
+}
+.ofimatica{
+    text-align: center;
+    float:left;
+    width:550px;
+    height:300px;
+    background-color:#E0BBE4;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+  .contenedor{
+    width:100%;
+    }
+    .cajas{
+        height:300px;
+       margin-left: 10px;
+       margin-top:10px;
+       width:45%;
+    }
+    .pythom{
+        width:100%;  
+    }
+    .kotlin{
+        width:100%;
+    }
+    .ofimatica{
+        width:70%;
+    }
+    .python{
+        width:100%;
+    }
+    .db{
+        width:30%;
+    }
+    .c{
+        width:50%;
+    }
+    .principal{
+	    width:100%;
+    }
+    .button:link,
+    .button:visited{
+        margin-left:20%;
+    }
+
+}
+/* Desktop Styles */
+@media only screen and (min-width: 401px) {
+  body {
+    background-color: #efcabc ;
+  }
+}
+
